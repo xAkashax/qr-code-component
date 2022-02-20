@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+    width: 375px;
+    height: 80vh;
+    background-color: hsl(212, 45%, 89%);
+    margin: 100px auto 50px;
+    box-shadow: 2px 5px 20px 4px hsl(212, 43%, 83%);
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 300px;
+    max-height: 475px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 2px 5px 20px 4px hsl(212, 43%, 83%);
+}
+
+img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.text {
+    position: relative;
+    margin-top: 100%;
+    text-align: center;
+}
+
+.text h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);
+    padding: 10px 20px 5px 20px;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    color: hsl(220, 15%, 55%);
+    padding: 10px 20px 0 20px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.attribution a {
+    background-color: transparent;
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1440px) {
+    body {
+        width: 1440px;
+    }
+
+}
